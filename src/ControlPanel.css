@@ -1,0 +1,27 @@
+.control-panel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+.grouping-sorting-control {
+  display: flex;
+  align-items: center;
+}
+
+.control-label {
+  margin-right: 0.5rem;
+}
+
+.control-select {
+  padding: 0.5rem;
+  margin-right: 1rem;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  cursor: pointer;
+}

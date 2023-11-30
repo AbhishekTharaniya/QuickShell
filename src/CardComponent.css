@@ -1,0 +1,71 @@
+.card {
+  background-color: #FFF;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+  margin: 15px;
+  padding: 10px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.card-id {
+  font-weight: bold;
+  margin: 10px;
+}
+
+.card-type {
+  background: #e1e1e1;
+  border-radius: 12px;
+  padding: 2px 8px;
+  font-size: 0.75rem;
+}
+
+.card-title {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+.card-detail {
+  font-size: 0.875rem;
+  color: #666;
+  margin-bottom: 4px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-metadata {
+  display: flex;
+  align-items: center;
+}
+
+.feature-circle {
+  height: 10px;
+  width: 10px;
+  background-color: #c4c4c4;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 8px; 
+}
+
+.card-assignee {
+  font-size: 0.875rem;
+  color: rgb(125, 114, 114);
+}
+.card-profile-picture{
+  width: 30px;
+  height: 30px;
+}
